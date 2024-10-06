@@ -5,9 +5,8 @@ This is a simple Number Guessing Game built with **Next.js**. The app generates 
 ## Features
 
 - Random number generation.
-- Player can input guesses and receive feedback such as "too high" or "too low."
 - Tracks the number of attempts.
-- Reset functionality to start a new game.
+  
 
 ## Tech Stack
 
