@@ -1,9 +1,11 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import Guessing from "./number-guessing/page";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div>
+      <Guessing />
+
 </div>
   );
 }

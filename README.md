@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Number Guessing Game
 
-## Getting Started
+This is a simple Number Guessing Game built with **Next.js**. The app generates a random number, and the player tries to guess the number based on feedback provided for each guess.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Random number generation.
+- Player can input guesses and receive feedback such as "too high" or "too low."
+- Tracks the number of attempts.
+- Reset functionality to start a new game.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework used for server-side rendering and static site generation.
+- **CSS**: Used for styling the application.
+- **JavaScript**: Handles game logic and state management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How to Run the App
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/muskan-fatim/Day4.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate to the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   cd number-guessing-game
+   ```
 
-## Deploy on Vercel
+3. Install the dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   The app should now be running on [http://localhost:3000](http://localhost:3000).
+
+## Game Rules
+
+1. The app will generate a random number within a specified range (e.g., 1-100).
+2. The player enters a guess.
+4. The player continues guessing until the correct number is guessed.
+5. The number of attempts is tracked and displayed.
+
+## Customization
+
+- You can adjust the number range or add additional features such as difficulty levels or a leaderboard.
+- CSS can be customized by editing the `Home.module.css` file in the `styles` directory.
+
